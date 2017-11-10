@@ -1,0 +1,51 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #079899;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+  background-color: #0A3066;
+}
+
+.restaurant-list {
+  padding-top: 50px;
+  background-color: #Fefffe;
+  width: 100%;
+}
+
+.location {
+  width: 100%;
+  padding: 10px 10px 10px 17px;
+  border-bottom: .5px solid grey;
+  display: flex;
+}
+
+.location:hover {
+  background-color: rgba(11,100,229,.3);
+}
+
+h1 {
+  font-weight: bold;
+  padding-bottom: 4px;
+  font-size: 1.1rem;
+}
+
+.arrow {
+  display: inline;
+  margin: auto 0 auto auto;
+  padding-right: 15px;
+}
